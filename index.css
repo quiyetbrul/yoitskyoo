@@ -1,16 +1,21 @@
 .mediaViewInfo {
-	--web-view-name: maintenance;
-	--web-view-id: maintenance;
+	--web-view-name: quiyet-brul-portfolio;
+	--web-view-id: quiyet_brul_portfolio;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
 	--web-scale-on-resize: true;
 	--web-scale-on-double-click: true;
 	--web-actual-size-on-double-click: true;
 	--web-center-horizontally: true;
 	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
 	--web-refresh-for-changes: true;
+	--web-application: true;
 	--web-enable-deep-linking: true;
 }
 :root {
-	--web-view-ids: maintenance;
+	--web-view-ids: quiyet_brul_portfolio;
 }
 * {
 	margin: 0;
@@ -18,252 +23,887 @@
 	box-sizing: border-box;
 	border: none;
 }
-#maintenance {
+#quiyet_brul_portfolio {
 	position: absolute;
 	transform: translateX(-50%) translateY(-50%);
 	left: 50%;
 	top: 50%;
 	width: 1920px;
-	height: 1080px;
+	height: 4652px;
 	background-color: rgba(255,255,255,1);
 	overflow: hidden;
-	--web-view-name: maintenance;
-	--web-view-id: maintenance;
+	--web-view-name: quiyet-brul-portfolio;
+	--web-view-id: quiyet_brul_portfolio;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
 	--web-scale-on-resize: true;
 	--web-scale-on-double-click: true;
 	--web-actual-size-on-double-click: true;
 	--web-center-horizontally: true;
 	--web-center-vertically: true;
+	--web-navigate-on-keypress: true;
 	--web-refresh-for-changes: true;
+	--web-application: true;
 	--web-enable-deep-linking: true;
 }
-#Group_17 {
+.contact_line {
+	overflow: visible;
 	position: absolute;
-	width: 1218.303px;
-	height: 844.942px;
-	left: 350.606px;
-	top: 117.058px;
+	width: 5.908px;
+	height: 280.641px;
+	left: 959.608px;
+	top: 3613.086px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#contact {
+	position: absolute;
+	width: 1130.807px;
+	height: 548.258px;
+	left: 394.596px;
+	top: 3924.742px;
 	overflow: visible;
 }
-#Group_16 {
+.contact_form_container {
+	filter: drop-shadow(10px 10px 20px rgba(19, 19, 47, 0.2));
 	position: absolute;
-	width: 1218.303px;
-	height: 732.782px;
+	overflow: visible;
+	width: 1190.807px;
+	height: 554.34px;
+	left: 0px;
+	top: 0px;
+}
+#social_icons {
+	position: absolute;
+	width: 383.993px;
+	height: 72.955px;
+	left: 112.401px;
+	top: 407.927px;
+	overflow: visible;
+}
+#instagram {
+	position: absolute;
+	width: 72.955px;
+	height: 72.955px;
 	left: 0px;
 	top: 0px;
 	overflow: visible;
 }
-.Path_177 {
-	overflow: visible;
-	position: absolute;
-	width: 167.476px;
-	height: 545.832px;
-	left: 0.38px;
-	top: 164.737px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.Path_178 {
-	overflow: visible;
-	position: absolute;
-	width: 69.792px;
-	height: 227.462px;
-	left: 1148.511px;
-	top: 483.722px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.Ellipse_41 {
+.Ellipse_1 {
 	position: absolute;
 	overflow: visible;
-	width: 1214.32px;
-	height: 47.576px;
+	width: 72.955px;
+	height: 72.955px;
 	left: 0px;
-	top: 685.206px;
-}
-.Rectangle_128 {
-	position: absolute;
-	overflow: visible;
-	width: 693.25px;
-	height: 413.311px;
-	left: 208.428px;
-	top: 280.959px;
-}
-.Path_179 {
-	overflow: visible;
-	position: absolute;
-	width: 171.568px;
-	height: 163.084px;
-	left: 208.428px;
-	top: 280.959px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.Path_180 {
-	overflow: visible;
-	position: absolute;
-	width: 65.934px;
-	height: 23.003px;
-	left: 523.03px;
-	top: 671.266px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.Path_181 {
-	overflow: visible;
-	position: absolute;
-	width: 66.289px;
-	height: 139.216px;
-	left: 835.389px;
-	top: 480.484px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.Rectangle_129 {
-	position: absolute;
-	overflow: visible;
-	width: 478.186px;
-	height: 40.85px;
-	left: 316.561px;
-	top: 431.146px;
-}
-.Rectangle_130 {
-	position: absolute;
-	overflow: visible;
-	width: 478.186px;
-	height: 40.85px;
-	left: 316.561px;
-	top: 511.645px;
-}
-.Rectangle_131 {
-	position: absolute;
-	overflow: visible;
-	width: 167.654px;
-	height: 40.85px;
-	left: 627.094px;
-	top: 592.143px;
-}
-.Path_182 {
-	overflow: visible;
-	position: absolute;
-	width: 48.13px;
-	height: 168.618px;
-	left: 990.434px;
-	top: 126.977px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.Path_183 {
-	overflow: visible;
-	position: absolute;
-	width: 56.324px;
-	height: 154.456px;
-	left: 768.897px;
-	top: 66.204px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.Path_184 {
-	overflow: visible;
-	position: absolute;
-	width: 263.415px;
-	height: 442.248px;
-	left: 757.157px;
-	top: 212.166px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.Path_185 {
-	overflow: visible;
-	position: absolute;
-	width: 128.554px;
-	height: 58.601px;
-	left: 729.498px;
-	top: 379.177px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.Path_186 {
-	overflow: visible;
-	position: absolute;
-	width: 104.224px;
-	height: 76.485px;
-	left: 905.802px;
-	top: 634.085px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.Ellipse_42 {
-	position: absolute;
-	overflow: visible;
-	width: 72.016px;
-	height: 72.016px;
-	left: 794.509px;
-	top: 14.745px;
-}
-.Path_187 {
-	overflow: visible;
-	position: absolute;
-	width: 73.419px;
-	height: 66.72px;
-	left: 833.694px;
-	top: 46.517px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.Path_188 {
-	overflow: visible;
-	position: absolute;
-	width: 221.872px;
-	height: 241.501px;
-	left: 804.57px;
-	top: 47.377px;
-	transform: matrix(1,0,0,1,0,0);
-}
-.Path_189 {
-	overflow: visible;
-	position: absolute;
-	width: 92.339px;
-	height: 59.456px;
-	left: 779.361px;
 	top: 0px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#m_a_i_n_t_e_n_a_n_c_e {
-	position: absolute;
-	left: 209.394px;
-	top: 188.942px;
-	overflow: visible;
-	width: 406px;
-	white-space: nowrap;
-	text-align: center;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 50px;
-	color: rgba(88,88,137,1);
-}
-#social {
-	position: absolute;
-	width: 286.15px;
-	height: 60px;
-	left: 466.394px;
-	top: 784.942px;
-	overflow: visible;
 }
 .Icon_metro_instagram {
 	overflow: visible;
 	position: absolute;
-	width: 60px;
-	height: 60px;
+	width: 29.085px;
+	height: 29.08px;
+	left: 21.699px;
+	top: 21.937px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#email {
+	position: absolute;
+	width: 72.955px;
+	height: 72.955px;
+	left: 103.679px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_2 {
+	position: absolute;
+	overflow: visible;
+	width: 72.955px;
+	height: 72.955px;
 	left: 0px;
 	top: 0px;
+}
+.Icon_material_email {
+	overflow: visible;
+	position: absolute;
+	width: 29.085px;
+	height: 29.085px;
+	left: 21.887px;
+	top: 21.886px;
 	transform: matrix(1,0,0,1,0,0);
+}
+#linkedin {
+	position: absolute;
+	width: 72.955px;
+	height: 72.955px;
+	left: 207.359px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_3 {
+	position: absolute;
+	overflow: visible;
+	width: 72.955px;
+	height: 72.955px;
+	left: 0px;
+	top: 0px;
+}
+.Icon_simple_linkedin {
+	overflow: visible;
+	position: absolute;
+	width: 29.082px;
+	height: 29.082px;
+	left: 21.539px;
+	top: 21.937px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#github {
+	position: absolute;
+	width: 72.955px;
+	height: 72.955px;
+	left: 311.038px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_4 {
+	position: absolute;
+	overflow: visible;
+	width: 72.955px;
+	height: 72.955px;
+	left: 0px;
+	top: 0px;
 }
 .Icon_awesome_github_square {
 	overflow: visible;
 	position: absolute;
-	width: 60px;
-	height: 60px;
-	left: 113px;
-	top: 0px;
+	width: 29.082px;
+	height: 29.082px;
+	left: 21.253px;
+	top: 22.071px;
 	transform: matrix(1,0,0,1,0,0);
 }
-.Icon_awesome_linkedin {
+#input_form {
+	position: absolute;
+	width: 990.149px;
+	height: 333.163px;
+	left: 86.065px;
+	top: 78.825px;
+	overflow: visible;
+}
+#message_input {
+	position: absolute;
+	width: 477.857px;
+	height: 333.163px;
+	left: 512.292px;
+	top: 0px;
+	overflow: visible;
+}
+#Mask_Group_1 {
+	position: absolute;
+	width: 476.641px;
+	height: 331.947px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#email_input {
+	position: absolute;
+	width: 437.732px;
+	height: 60.796px;
+	left: 0px;
+	top: 224.085px;
+	overflow: visible;
+}
+#Mask_Group_1_ {
+	position: absolute;
+	width: 437.732px;
+	height: 60.796px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#phone_input {
+	position: absolute;
+	width: 437.732px;
+	height: 60.796px;
+	left: 0px;
+	top: 111.833px;
+	overflow: visible;
+}
+#Mask_Group_1_be {
+	position: absolute;
+	width: 437.732px;
+	height: 60.796px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#name_input {
+	position: absolute;
+	width: 437.732px;
+	height: 60.796px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Mask_Group_1_bm {
+	position: absolute;
+	width: 437.732px;
+	height: 60.796px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#send_button {
+	position: absolute;
+	width: 126px;
+	height: 126px;
+	left: 913.404px;
+	top: 422.258px;
+	overflow: visible;
+}
+.send_button_ellipse {
+	filter: drop-shadow(10px 10px 20px rgba(19, 19, 47, 0.2));
+	position: absolute;
+	overflow: visible;
+	width: 186px;
+	height: 186px;
+	left: 0px;
+	top: 0px;
+}
+.send_icon {
 	overflow: visible;
 	position: absolute;
-	width: 60px;
-	height: 60px;
-	left: 226.15px;
-	top: 0px;
+	width: 63.588px;
+	height: 63.284px;
+	left: 27.488px;
+	top: 35.534px;
 	transform: matrix(1,0,0,1,0,0);
 }
+#email_bw {
+	position: absolute;
+	left: 111.404px;
+	top: 263.258px;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	line-height: 60px;
+	margin-top: -15px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgba(90,90,90,1);
+	letter-spacing: 0.2px;
+}
+#phone {
+	position: absolute;
+	left: 111.404px;
+	top: 152.258px;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	line-height: 60px;
+	margin-top: -15px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgba(90,90,90,1);
+	letter-spacing: 0.2px;
+}
+#name {
+	position: absolute;
+	left: 111.404px;
+	top: 40.258px;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	line-height: 60px;
+	margin-top: -15px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgba(90,90,90,1);
+	letter-spacing: 0.2px;
+}
+#message {
+	position: absolute;
+	left: 628.404px;
+	top: 40.258px;
+	overflow: visible;
+	width: 122px;
+	white-space: nowrap;
+	line-height: 60px;
+	margin-top: -15px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgba(90,90,90,1);
+	letter-spacing: 0.2px;
+}
+#work {
+	position: absolute;
+	width: 1328px;
+	height: 739.666px;
+	left: 296px;
+	top: 3058px;
+	overflow: visible;
+}
+#project_two {
+	position: absolute;
+	width: 655px;
+	height: 629px;
+	left: 673px;
+	top: 80px;
+	overflow: visible;
+}
+#SHPE_OC_is_a_non_profit_organi {
+	position: absolute;
+	left: 10px;
+	top: 475px;
+	overflow: hidden;
+	width: 646px;
+	height: 154px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.3px;
+}
+.project_two_container {
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 685px;
+	height: 470px;
+	left: 0px;
+	top: 0px;
+}
+#shpeoc_icon {
+	position: absolute;
+	width: 307px;
+	height: 293px;
+	left: 174px;
+	top: 74px;
+	overflow: visible;
+}
+#project_one {
+	position: absolute;
+	width: 655px;
+	height: 629px;
+	left: 0px;
+	top: 80px;
+	overflow: visible;
+}
+#K_Bro_is_an_emotional_resilien {
+	position: absolute;
+	left: 0px;
+	top: 475px;
+	overflow: visible;
+	width: 646px;
+	height: 154px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.3px;
+}
+.project_one_container {
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 685px;
+	height: 470px;
+	left: 0px;
+	top: 0px;
+}
+#kbro_icon {
+	position: absolute;
+	width: 300px;
+	height: 289px;
+	left: 178px;
+	top: 75px;
+	overflow: visible;
+}
+#WORK_b {
+	position: absolute;
+	left: 577px;
+	top: 0px;
+	overflow: visible;
+	width: 165px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1px;
+}
+.work_line {
+	overflow: visible;
+	position: absolute;
+	width: 696.378px;
+	height: 5px;
+	left: 318.76px;
+	top: 739.666px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#skills {
+	position: absolute;
+	width: 2475.096px;
+	height: 1239.712px;
+	left: -345.759px;
+	top: 1492.355px;
+	overflow: visible;
+}
+.skills_container {
+	width: 2394px;
+	height: 1035px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(0px, 0px) matrix(1,0,0,1,40.5481,102.3562) rotate(-5deg);
+	transform-origin: center;
+}
+#texts {
+	position: absolute;
+	width: 1088.5px;
+	height: 798.069px;
+	left: 763.259px;
+	top: 247.645px;
+	overflow: visible;
+}
+#language {
+	position: absolute;
+	width: 794px;
+	height: 166px;
+	left: 159.5px;
+	top: 84px;
+	overflow: visible;
+}
+#Language_cf {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 201px;
+	white-space: nowrap;
+	line-height: 50px;
+	margin-top: -5px;
+	text-align: center;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1px;
+}
+#C_C____C___Java__Visual_Basic_ {
+	position: absolute;
+	left: 52px;
+	top: 68px;
+	overflow: visible;
+	width: 743px;
+	white-space: nowrap;
+	line-height: 50px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1px;
+}
+#database {
+	position: absolute;
+	width: 929px;
+	height: 183px;
+	left: 159.5px;
+	top: 275px;
+	overflow: visible;
+}
+#Database_ci {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 193px;
+	white-space: nowrap;
+	line-height: 50px;
+	margin-top: -5px;
+	text-align: center;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1px;
+}
+#SQL__MySQL__AWS__MongoDB__Apac {
+	position: absolute;
+	left: 53px;
+	top: 68px;
+	overflow: visible;
+	width: 877px;
+	height: 115px;
+	line-height: 50px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1px;
+}
+#tools {
+	position: absolute;
+	width: 866px;
+	height: 315px;
+	left: 159.5px;
+	top: 483px;
+	overflow: visible;
+}
+#Tools_cl {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 106px;
+	white-space: nowrap;
+	line-height: 50px;
+	margin-top: -5px;
+	text-align: center;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1px;
+}
+#Visual_Studio__Xcode__NetBeans {
+	position: absolute;
+	left: 53px;
+	top: 59px;
+	overflow: visible;
+	width: 814px;
+	height: 256px;
+	line-height: 50px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1px;
+}
+#SKILLS_cn {
+	position: absolute;
+	left: 49.5px;
+	top: 0px;
+	overflow: visible;
+	width: 186px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1px;
+}
+.skills_line {
+	overflow: visible;
+	position: absolute;
+	width: 5px;
+	height: 793px;
+	left: 0px;
+	top: 10.069px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#homepage {
+	position: absolute;
+	width: 1375px;
+	height: 799.624px;
+	left: 300px;
+	top: 359px;
+	overflow: visible;
+}
+#about {
+	position: absolute;
+	width: 1188px;
+	height: 387.624px;
+	left: 187px;
+	top: 412px;
+	overflow: visible;
+}
+#social_icons_cr {
+	position: absolute;
+	width: 383.993px;
+	height: 72.955px;
+	left: 728.998px;
+	top: 314.668px;
+	overflow: visible;
+}
+#instagram_cs {
+	position: absolute;
+	width: 72.955px;
+	height: 72.955px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_1_ct {
+	position: absolute;
+	overflow: visible;
+	width: 72.955px;
+	height: 72.955px;
+	left: 0px;
+	top: 0px;
+}
+.Icon_metro_instagram_cu {
+	overflow: visible;
+	position: absolute;
+	width: 29.085px;
+	height: 29.08px;
+	left: 21.699px;
+	top: 21.937px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#email_cv {
+	position: absolute;
+	width: 72.955px;
+	height: 72.955px;
+	left: 103.679px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_2_cw {
+	position: absolute;
+	overflow: visible;
+	width: 72.955px;
+	height: 72.955px;
+	left: 0px;
+	top: 0px;
+}
+.Icon_material_email_cx {
+	overflow: visible;
+	position: absolute;
+	width: 29.085px;
+	height: 29.085px;
+	left: 21.887px;
+	top: 21.887px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#linkedin_cy {
+	position: absolute;
+	width: 72.955px;
+	height: 72.955px;
+	left: 207.359px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_3_cz {
+	position: absolute;
+	overflow: visible;
+	width: 72.955px;
+	height: 72.955px;
+	left: 0px;
+	top: 0px;
+}
+.Icon_simple_linkedin_c {
+	overflow: visible;
+	position: absolute;
+	width: 29.082px;
+	height: 29.082px;
+	left: 21.539px;
+	top: 21.937px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#github_c {
+	position: absolute;
+	width: 72.955px;
+	height: 72.955px;
+	left: 311.038px;
+	top: 0px;
+	overflow: visible;
+}
+.Ellipse_4_c {
+	position: absolute;
+	overflow: visible;
+	width: 72.955px;
+	height: 72.955px;
+	left: 0px;
+	top: 0px;
+}
+.Icon_awesome_github_square_c {
+	overflow: visible;
+	position: absolute;
+	width: 29.082px;
+	height: 29.082px;
+	left: 21.253px;
+	top: 22.071px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#about_message {
+	position: absolute;
+	left: 0px;
+	top: 93px;
+	overflow: hidden;
+	width: 904px;
+	height: 200px;
+	line-height: 40px;
+	margin-top: -7.5px;
+	text-align: right;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 25px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.05px;
+}
+#about_greeting {
+	position: absolute;
+	left: 625px;
+	top: 36px;
+	overflow: visible;
+	width: 279px;
+	white-space: nowrap;
+	line-height: 150px;
+	margin-top: -57.5px;
+	text-align: right;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 35px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1px;
+}
+#quiyet_brul_avatar {
+	position: absolute;
+	width: 281px;
+	height: 305px;
+	left: 907px;
+	top: 0px;
+	overflow: visible;
+}
+#SOFTWARE_____WEB__D_E_V_E_L_O_ {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 1064px;
+	white-space: nowrap;
+	line-height: 150px;
+	margin-top: -25px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 100px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1px;
+}
+#menu {
+	position: absolute;
+	width: 845px;
+	height: 55px;
+	left: 830.5px;
+	top: 80px;
+	overflow: visible;
+}
+.landing_line {
+	overflow: visible;
+	position: absolute;
+	width: 850.003px;
+	height: 5.503px;
+	left: 0px;
+	top: 54.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#contact_da {
+	position: absolute;
+	left: 537.5px;
+	top: 0px;
+	overflow: visible;
+	width: 116px;
+	white-space: nowrap;
+	line-height: 150px;
+	margin-top: -60px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgba(150,150,150,1);
+	letter-spacing: 1px;
+}
+#work_db {
+	position: absolute;
+	left: 414.5px;
+	top: 0px;
+	overflow: visible;
+	width: 74px;
+	white-space: nowrap;
+	line-height: 150px;
+	margin-top: -60px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgba(150,150,150,1);
+	letter-spacing: 1px;
+}
+#skills_dc {
+	position: absolute;
+	left: 288.5px;
+	top: 0px;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	line-height: 150px;
+	margin-top: -60px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgba(150,150,150,1);
+	letter-spacing: 1px;
+}
+#resume {
+	position: absolute;
+	left: 702.5px;
+	top: 0px;
+	overflow: visible;
+	width: 112px;
+	white-space: nowrap;
+	line-height: 150px;
+	margin-top: -60px;
+	text-align: left;
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgba(150,150,150,1);
+	letter-spacing: 1px;
+}
+
+a {
+	color: rgba(150,150,150,1);
+	text-decoration: none;
+	background-color: transparent;
+  }

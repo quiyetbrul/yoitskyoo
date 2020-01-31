@@ -23,11 +23,7 @@
 #quiyet_brul_portfolio {
   display: none;
 }
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-@media (min-width: 0px) and (min-height: 0) {
+@media (min-width: 0px) {
   .mediaViewInfo {
     --web-view-name: quiyet-brul-portfolio;
     --web-view-id: quiyet_brul_portfolio;
@@ -82,7 +78,6 @@ html {
     left: 296px;
     top: 2291px;
     overflow: visible;
-    transition: transform 0.2s;
   }
   #social_icons {
     position: absolute;
@@ -211,7 +206,7 @@ html {
     font-family: Geeza Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 22px;
     color: rgba(0, 0, 0, 1);
     letter-spacing: 0.3px;
   }
@@ -251,7 +246,7 @@ html {
     font-family: Geeza Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 22px;
     color: rgba(0, 0, 0, 1);
     letter-spacing: 0.3px;
   }
@@ -286,7 +281,6 @@ html {
     font-size: 50px;
     color: rgba(150, 150, 150, 1);
     letter-spacing: 1px;
-    transition: transform 0.2s;
   }
   .project_line {
     overflow: visible;
@@ -297,12 +291,20 @@ html {
     top: 750.666px;
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
+  #about {
+    position: absolute;
+    width: 2443.208px;
+    height: 1173.301px;
+    left: -336.471px;
+    top: 1081px;
+    overflow: visible;
+  }
   #skills {
     position: absolute;
     width: 2443.208px;
     height: 1173.154px;
-    left: -336.471px;
-    top: 1081.146px;
+    left: 0px;
+    top: 0.146px;
     overflow: visible;
   }
   .skills_container_contrast {
@@ -327,142 +329,142 @@ html {
   }
   #skills_texts {
     position: absolute;
-    width: 987.5px;
-    height: 638.5px;
+    width: 988.5px;
+    height: 627.457px;
     left: 727.971px;
-    top: 397.854px;
+    top: 408.897px;
     overflow: visible;
   }
   #language {
     position: absolute;
-    width: 558px;
-    height: 132px;
-    left: 115.5px;
-    top: 68px;
+    width: 460px;
+    height: 134px;
+    left: 126.5px;
+    top: 86.957px;
     overflow: visible;
   }
-  #Language_ {
+  #Languages {
     position: absolute;
     left: 0px;
     top: 0px;
     overflow: visible;
-    width: 163px;
+    width: 168px;
     white-space: nowrap;
     line-height: 50px;
     margin-top: -10px;
-    text-align: center;
-    font-family: Geeza Pro;
+    text-align: left;
+    font-family: Sukhumvit Set;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 30px;
     color: rgba(0, 0, 0, 1);
     letter-spacing: 1px;
   }
   #C_C____C___Java__Visual_Basic_ {
     position: absolute;
-    left: 33px;
-    top: 35px;
+    left: 22px;
+    top: 44px;
     overflow: visible;
-    width: 526px;
+    width: 439px;
     white-space: nowrap;
     line-height: 50px;
-    margin-top: -10px;
+    margin-top: -12.5px;
     text-align: left;
     font-family: Sukhumvit Set;
     font-style: normal;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 25px;
     color: rgba(0, 0, 0, 1);
     letter-spacing: 1px;
   }
   #database {
     position: absolute;
-    width: 550px;
-    height: 173px;
-    left: 115.5px;
-    top: 211px;
+    width: 544px;
+    height: 130px;
+    left: 121.5px;
+    top: 224.957px;
     overflow: visible;
   }
-  #Database_bc {
+  #Database_bd {
     position: absolute;
     left: 0px;
     top: 0px;
     overflow: visible;
-    width: 157px;
+    width: 145px;
     white-space: nowrap;
     line-height: 50px;
     margin-top: -10px;
     text-align: center;
-    font-family: Geeza Pro;
+    font-family: Sukhumvit Set;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 30px;
     color: rgba(0, 0, 0, 1);
     letter-spacing: 1px;
   }
   #SQL__MySQL__AWS__MongoDB__Apac {
     position: absolute;
-    left: 35px;
-    top: 58px;
+    left: 29px;
+    top: 39px;
     overflow: visible;
     width: 516px;
-    height: 115px;
+    height: 91px;
     line-height: 50px;
-    margin-top: -10px;
+    margin-top: -12.5px;
     text-align: left;
     font-family: Sukhumvit Set;
     font-style: normal;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 25px;
     color: rgba(0, 0, 0, 1);
     letter-spacing: 1px;
   }
   #tools {
     position: absolute;
-    width: 872px;
-    height: 246px;
-    left: 115.5px;
-    top: 384px;
+    width: 867px;
+    height: 236px;
+    left: 121.5px;
+    top: 358.957px;
     overflow: visible;
   }
-  #Tools_bf {
+  #Tools_bg {
     position: absolute;
     left: 0px;
     top: 0px;
     overflow: visible;
-    width: 93px;
+    width: 83px;
     white-space: nowrap;
     line-height: 50px;
     margin-top: -10px;
     text-align: center;
-    font-family: Geeza Pro;
+    font-family: Sukhumvit Set;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 30px;
     color: rgba(0, 0, 0, 1);
     letter-spacing: 1px;
   }
   #Visual_Studio__Xcode__NetBeans {
     position: absolute;
-    left: 46px;
-    top: 49px;
+    left: 41px;
+    top: 39px;
     overflow: visible;
     width: 827px;
     height: 197px;
     line-height: 50px;
-    margin-top: -10px;
+    margin-top: -12.5px;
     text-align: left;
     font-family: Sukhumvit Set;
     font-style: normal;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 25px;
     color: rgba(0, 0, 0, 1);
     letter-spacing: 1px;
   }
   #__SKILLS {
     position: absolute;
     left: 49.5px;
-    top: 0px;
+    top: 22.957px;
     overflow: visible;
     width: 229px;
     white-space: nowrap;
@@ -480,35 +482,18 @@ html {
     width: 5px;
     height: 632.457px;
     left: 0px;
-    top: 11.043px;
+    top: 0px;
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
-  #homepage {
-    position: absolute;
-    width: 1454px;
-    height: 355px;
-    left: 384px;
-    top: 1081px;
-    overflow: visible;
-  }
-  #about {
-    position: absolute;
-    width: 1454px;
-    height: 355px;
-    left: 0px;
-    top: 0px;
-    overflow: visible;
-    transition: transform 0.2s;
-  }
-  #social_icons_bl {
+  #social_icons_bk {
     position: absolute;
     width: 383.993px;
     height: 72.955px;
-    left: 702.998px;
-    top: 260.73px;
+    left: 1423.469px;
+    top: 269.73px;
     overflow: visible;
   }
-  #instagram_bm {
+  #instagram_bl {
     position: absolute;
     width: 72.955px;
     height: 72.955px;
@@ -516,7 +501,7 @@ html {
     top: 0px;
     overflow: visible;
   }
-  .Ellipse_1_bn {
+  .Ellipse_1_bm {
     position: absolute;
     overflow: visible;
     width: 72.955px;
@@ -524,7 +509,7 @@ html {
     left: 0px;
     top: 0px;
   }
-  .Icon_metro_instagram_bo {
+  .Icon_metro_instagram_bn {
     overflow: visible;
     position: absolute;
     width: 29.085px;
@@ -533,7 +518,7 @@ html {
     top: 21.937px;
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
-  #email_bp {
+  #email_bo {
     position: absolute;
     width: 72.955px;
     height: 72.955px;
@@ -541,7 +526,7 @@ html {
     top: 0px;
     overflow: visible;
   }
-  .Ellipse_2_bq {
+  .Ellipse_2_bp {
     position: absolute;
     overflow: visible;
     width: 72.955px;
@@ -549,7 +534,7 @@ html {
     left: 0px;
     top: 0px;
   }
-  .Icon_material_email_br {
+  .Icon_material_email_bq {
     overflow: visible;
     position: absolute;
     width: 29.085px;
@@ -558,7 +543,7 @@ html {
     top: 21.887px;
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
-  #linkedin_bs {
+  #linkedin_br {
     position: absolute;
     width: 72.955px;
     height: 72.955px;
@@ -566,7 +551,7 @@ html {
     top: 0px;
     overflow: visible;
   }
-  .Ellipse_3_bt {
+  .Ellipse_3_bs {
     position: absolute;
     overflow: visible;
     width: 72.955px;
@@ -574,7 +559,7 @@ html {
     left: 0px;
     top: 0px;
   }
-  .Icon_simple_linkedin_bu {
+  .Icon_simple_linkedin_bt {
     overflow: visible;
     position: absolute;
     width: 29.082px;
@@ -583,7 +568,7 @@ html {
     top: 21.937px;
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
-  #github_bv {
+  #github_bu {
     position: absolute;
     width: 72.955px;
     height: 72.955px;
@@ -591,7 +576,7 @@ html {
     top: 0px;
     overflow: visible;
   }
-  .Ellipse_4_bw {
+  .Ellipse_4_bv {
     position: absolute;
     overflow: visible;
     width: 72.955px;
@@ -599,7 +584,7 @@ html {
     left: 0px;
     top: 0px;
   }
-  .Icon_awesome_github_square_bx {
+  .Icon_awesome_github_square_bw {
     overflow: visible;
     position: absolute;
     width: 29.082px;
@@ -610,8 +595,8 @@ html {
   }
   #about_message {
     position: absolute;
-    left: 0px;
-    top: 99px;
+    left: 720.471px;
+    top: 118px;
     overflow: visible;
     width: 1116px;
     height: 143px;
@@ -627,15 +612,15 @@ html {
   }
   #about_greeting {
     position: absolute;
-    left: 826px;
-    top: 59px;
+    left: 1524.471px;
+    top: 60px;
     overflow: visible;
-    width: 290px;
+    width: 312px;
     white-space: nowrap;
     line-height: 150px;
     margin-top: -57.5px;
     text-align: right;
-    font-family: Helvetica Neue;
+    font-family: American Typewriter;
     font-style: normal;
     font-weight: normal;
     font-size: 35px;
@@ -646,7 +631,7 @@ html {
     position: absolute;
     width: 325px;
     height: 355px;
-    left: 1129px;
+    left: 1849.471px;
     top: 0px;
     overflow: visible;
   }
@@ -658,34 +643,106 @@ html {
     top: 0px;
     overflow: visible;
   }
-  #menu {
+  #homepage {
     position: absolute;
-    width: 845px;
-    height: 50px;
-    left: 859.5px;
+    width: 1428.5px;
+    height: 871px;
+    left: 276px;
     top: 85px;
     overflow: visible;
-    transition: transform 0.2s;
+  }
+  #click_me_button {
+    position: absolute;
+    width: 250px;
+    height: 160px;
+    left: 559px;
+    top: 711px;
+    overflow: visible;
+    animation-name: click_me;
+    animation-timing-function: linear;
+    align-self: flex-end;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: transform 0.1s;
+  }
+  .scroll_container {
+    position: absolute;
+    overflow: visible;
+    width: 250px;
+    height: 160px;
+    left: 0px;
+    top: 0px;
+  }
+  .Icon_ionic_ios_arrow_down {
+    overflow: visible;
+    position: absolute;
+    width: 49.624px;
+    height: 28.273px;
+    left: 100px;
+    top: 80.415px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  #click_me {
+    position: absolute;
+    left: 77px;
+    top: 51px;
+    overflow: visible;
+    width: 98px;
+    white-space: nowrap;
+    line-height: 40px;
+    margin-top: -10px;
+    text-align: center;
+    font-family: PT Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 0.05px;
+  }
+  #heading_title {
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    left: 0px;
+    top: 266px;
+    overflow: visible;
+    width: 1034px;
+    white-space: nowrap;
+    line-height: 150px;
+    margin-top: -25px;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 1px;
   }
   .landing_line {
     overflow: visible;
     position: absolute;
     width: 850.003px;
     height: 5.503px;
-    left: 0px;
+    left: 583.5px;
     top: 49.5px;
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
-  #projects_b {
+  #menu {
+    position: absolute;
+    width: 280px;
+    height: 35px;
+    left: 1099px;
+    top: 0px;
+    overflow: visible;
+  }
+  #projects_menu {
     position: absolute;
     width: 124px;
     height: 35px;
-    left: 671.5px;
+    left: 156px;
     top: 0px;
     overflow: visible;
-    transition: transform 0.2s;
   }
-  #projects_ca {
+  #projects_menu_text {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -701,18 +758,16 @@ html {
     font-size: 30px;
     color: rgba(150, 150, 150, 1);
     letter-spacing: 1px;
-    transition: transform 0.2s;
   }
-  #about_b {
+  #about_menu {
     position: absolute;
     width: 86px;
     height: 35px;
-    left: 515.5px;
+    left: 0px;
     top: 0px;
     overflow: visible;
-    transition: transform 0.2s;
   }
-  #about_ca {
+  #about_menu_text {
     position: absolute;
     left: 0px;
     top: 0px;
@@ -728,101 +783,7 @@ html {
     font-size: 30px;
     color: rgba(150, 150, 150, 1);
     letter-spacing: 1px;
-    transition: transform 0.2s;
   }
-  #heading {
-    position: absolute;
-    width: 1210px;
-    height: 419px;
-    left: 190px;
-    top: 276px;
-    overflow: visible;
-  }
-  .heading_container_dark {
-    filter: drop-shadow(10px 10px 25px rgba(17, 25, 87, 0.451));
-    position: absolute;
-    overflow: visible;
-    width: 1285px;
-    height: 494px;
-    left: 0px;
-    top: 0px;
-  }
-  .heading_container_light {
-    filter: drop-shadow(-10px -10px 25px rgba(244, 208, 208, 0.502));
-    position: absolute;
-    overflow: visible;
-    width: 1285px;
-    height: 494px;
-    left: 0px;
-    top: 0px;
-  }
-  #heading_title {
-    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.161));
-    position: absolute;
-    left: 86px;
-    top: 77px;
-    overflow: visible;
-    width: 1039px;
-    white-space: nowrap;
-    line-height: 150px;
-    margin-top: -25px;
-    text-align: left;
-    font-family: Helvetica Neue;
-    font-style: normal;
-    font-weight: lighter;
-    font-size: 100px;
-    color: rgba(0, 0, 0, 1);
-    letter-spacing: 1px;
-  }
-
-  #click_me_button {
-		position: absolute;
-		width: 250px;
-		height: 160px;
-		left: 835px;
-		top: 795px;
-    overflow: visible;
-    animation-name: click_me;
-    animation-timing-function: linear;
-    align-self: flex-end;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    transition: transform 0.1s;
-	}
-	.scroll_container {
-		position: absolute;
-		overflow: visible;
-		width: 250px;
-		height: 160px;
-		left: 0px;
-		top: 0px;
-	}
-	.Icon_ionic_ios_arrow_down {
-		overflow: visible;
-		position: absolute;
-		width: 49.624px;
-		height: 28.273px;
-		left: 100px;
-		top: 80.415px;
-		transform: matrix(1,0,0,1,0,0);
-	}
-	#click_me {
-		position: absolute;
-		left: 77px;
-		top: 51px;
-		overflow: visible;
-		width: 98px;
-		white-space: nowrap;
-		line-height: 40px;
-		margin-top: -10px;
-		text-align: right;
-		font-family: PT Mono;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 20px;
-		color: rgba(0,0,0,1);
-		letter-spacing: 0.05px;
-	}
 
   @keyframes click_me {
     100% {
@@ -837,20 +798,20 @@ html {
   }
 
   /* @keyframes click_me {
-    0%,
-    20%,
-    50%,
-    80%,
-    100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-30px);
-    }
-    60% {
-      transform: translateY(-15px);
-    }
-  } */
+		0%,
+		20%,
+		50%,
+		80%,
+		100% {
+		  transform: translateY(0);
+		}
+		40% {
+		  transform: translateY(-30px);
+		}
+		60% {
+		  transform: translateY(-15px);
+		}
+	  } */
 
   a {
     color: rgba(150, 150, 150, 1);

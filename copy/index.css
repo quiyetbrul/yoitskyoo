@@ -1,0 +1,798 @@
+:root {
+	--web-view-ids: quiyet_brul_portfolio;
+	--web-view-name: quiyet-brul-portfolio;
+	--web-view-id: quiyet_brul_portfolio;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: false;
+	--web-scale-on-double-click: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-actual-size-on-double-click: true;
+	--web-navigate-on-keypress: true;
+	--web-refresh-for-changes: true;
+	--web-add-image-compare: false;
+	--web-show-by-media-query: false;
+	--web-application: true;
+	--web-show-navigation-controls: false;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: false;
+}
+#quiyet_brul_portfolio {
+	display: none;
+}
+@media (min-width: 0px) {
+	.mediaViewInfo {
+		--web-view-name: quiyet-brul-portfolio;
+		--web-view-id: quiyet_brul_portfolio;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-scale-on-double-click: true;
+		--web-actual-size-on-double-click: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-navigate-on-keypress: true;
+		--web-refresh-for-changes: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#quiyet_brul_portfolio {
+		position: absolute;
+		transform: translateX(-50%) translateY(-50%);
+		left: 50%;
+		top: 50%;
+		display: block;
+		width: 1920px;
+		height: 3278px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: quiyet-brul-portfolio;
+		--web-view-id: quiyet_brul_portfolio;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-scale-on-double-click: true;
+		--web-actual-size-on-double-click: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-navigate-on-keypress: true;
+		--web-refresh-for-changes: true;
+		--web-application: true;
+		--web-enable-deep-linking: true;
+	}
+	#projects {
+		position: absolute;
+		width: 1328px;
+		height: 880.623px;
+		left: 296px;
+		top: 2291px;
+		overflow: visible;
+	}
+	#social_icons {
+		position: absolute;
+		width: 383.993px;
+		height: 72.955px;
+		left: 471.998px;
+		top: 807.668px;
+		overflow: visible;
+	}
+	#instagram {
+		position: absolute;
+		width: 72.955px;
+		height: 72.955px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Ellipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 72.955px;
+		height: 72.955px;
+		left: 0px;
+		top: 0px;
+	}
+	.Icon_metro_instagram {
+		overflow: visible;
+		position: absolute;
+		width: 29.085px;
+		height: 29.08px;
+		left: 21.699px;
+		top: 21.937px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#email {
+		position: absolute;
+		width: 72.955px;
+		height: 72.955px;
+		left: 103.679px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Ellipse_2 {
+		position: absolute;
+		overflow: visible;
+		width: 72.955px;
+		height: 72.955px;
+		left: 0px;
+		top: 0px;
+	}
+	.Icon_material_email {
+		overflow: visible;
+		position: absolute;
+		width: 29.085px;
+		height: 29.085px;
+		left: 21.887px;
+		top: 21.887px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#linkedin {
+		position: absolute;
+		width: 72.955px;
+		height: 72.955px;
+		left: 207.359px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Ellipse_3 {
+		position: absolute;
+		overflow: visible;
+		width: 72.955px;
+		height: 72.955px;
+		left: 0px;
+		top: 0px;
+	}
+	.Icon_simple_linkedin {
+		overflow: visible;
+		position: absolute;
+		width: 29.082px;
+		height: 29.082px;
+		left: 21.539px;
+		top: 21.937px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#github {
+		position: absolute;
+		width: 72.955px;
+		height: 72.955px;
+		left: 311.038px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Ellipse_4 {
+		position: absolute;
+		overflow: visible;
+		width: 72.955px;
+		height: 72.955px;
+		left: 0px;
+		top: 0px;
+	}
+	.Icon_awesome_github_square {
+		overflow: visible;
+		position: absolute;
+		width: 29.082px;
+		height: 29.082px;
+		left: 21.253px;
+		top: 22.071px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#project_two {
+		position: absolute;
+		width: 655px;
+		height: 629px;
+		left: 673px;
+		top: 91px;
+		overflow: visible;
+	}
+	#SHPE_OC_is_a_non_profit_organi {
+		position: absolute;
+		left: 10px;
+		top: 475px;
+		overflow: hidden;
+		width: 646px;
+		height: 154px;
+		text-align: center;
+		font-family: Geeza Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 0.3px;
+	}
+	.project_two_container {
+		filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 685px;
+		height: 470px;
+		left: 0px;
+		top: 0px;
+	}
+	#shpeoc_icon {
+		position: absolute;
+		width: 307px;
+		height: 293px;
+		left: 174px;
+		top: 74px;
+		overflow: visible;
+	}
+	#project_one {
+		position: absolute;
+		width: 655px;
+		height: 629px;
+		left: 0px;
+		top: 91px;
+		overflow: visible;
+	}
+	#K_Bro_is_an_emotional_resilien {
+		position: absolute;
+		left: 0px;
+		top: 475px;
+		overflow: visible;
+		width: 646px;
+		height: 154px;
+		text-align: center;
+		font-family: Geeza Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 0.3px;
+	}
+	.project_one_container {
+		filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 685px;
+		height: 470px;
+		left: 0px;
+		top: 0px;
+	}
+	#kbro_icon {
+		position: absolute;
+		width: 300px;
+		height: 289px;
+		left: 178px;
+		top: 75px;
+		overflow: visible;
+	}
+	#__PROJECTS {
+		position: absolute;
+		left: 171px;
+		top: 0px;
+		overflow: visible;
+		width: 676px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		color: rgba(150,150,150,1);
+		letter-spacing: 1px;
+	}
+	.project_line {
+		overflow: visible;
+		position: absolute;
+		width: 696.378px;
+		height: 5px;
+		left: 318.76px;
+		top: 750.666px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#skills {
+		position: absolute;
+		width: 2443.208px;
+		height: 1173.154px;
+		left: -336.471px;
+		top: 1081.146px;
+		overflow: visible;
+	}
+	.skills_container_contrast {
+		overflow: visible;
+		position: absolute;
+		width: 2154.4px;
+		height: 1173.154px;
+		left: 233.862px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.skills_container {
+		overflow: visible;
+		position: absolute;
+		width: 2396.359px;
+		height: 755.289px;
+		transform: translate(-7.288px, 221.183px) matrix(1,0,0,1,30.7126,101.5154) rotate(-4deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#skills_texts {
+		position: absolute;
+		width: 987.5px;
+		height: 638.5px;
+		left: 727.971px;
+		top: 397.854px;
+		overflow: visible;
+	}
+	#language {
+		position: absolute;
+		width: 558px;
+		height: 132px;
+		left: 115.5px;
+		top: 68px;
+		overflow: visible;
+	}
+	#Language_ {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 163px;
+		white-space: nowrap;
+		line-height: 50px;
+		margin-top: -10px;
+		text-align: center;
+		font-family: Geeza Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+	}
+	#C_C____C___Java__Visual_Basic_ {
+		position: absolute;
+		left: 33px;
+		top: 35px;
+		overflow: visible;
+		width: 526px;
+		white-space: nowrap;
+		line-height: 50px;
+		margin-top: -10px;
+		text-align: left;
+		font-family: Sukhumvit Set;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+	}
+	#database {
+		position: absolute;
+		width: 550px;
+		height: 173px;
+		left: 115.5px;
+		top: 211px;
+		overflow: visible;
+	}
+	#Database_bc {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 157px;
+		white-space: nowrap;
+		line-height: 50px;
+		margin-top: -10px;
+		text-align: center;
+		font-family: Geeza Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+	}
+	#SQL__MySQL__AWS__MongoDB__Apac {
+		position: absolute;
+		left: 35px;
+		top: 58px;
+		overflow: visible;
+		width: 516px;
+		height: 115px;
+		line-height: 50px;
+		margin-top: -10px;
+		text-align: left;
+		font-family: Sukhumvit Set;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+	}
+	#tools {
+		position: absolute;
+		width: 872px;
+		height: 246px;
+		left: 115.5px;
+		top: 384px;
+		overflow: visible;
+	}
+	#Tools_bf {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 93px;
+		white-space: nowrap;
+		line-height: 50px;
+		margin-top: -10px;
+		text-align: center;
+		font-family: Geeza Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+	}
+	#Visual_Studio__Xcode__NetBeans {
+		position: absolute;
+		left: 46px;
+		top: 49px;
+		overflow: visible;
+		width: 827px;
+		height: 197px;
+		line-height: 50px;
+		margin-top: -10px;
+		text-align: left;
+		font-family: Sukhumvit Set;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+	}
+	#__SKILLS {
+		position: absolute;
+		left: 49.5px;
+		top: 0px;
+		overflow: visible;
+		width: 229px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		color: rgba(150,150,150,1);
+		letter-spacing: 1px;
+	}
+	.skills_line {
+		overflow: visible;
+		position: absolute;
+		width: 5px;
+		height: 632.457px;
+		left: 0px;
+		top: 11.043px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#homepage {
+		position: absolute;
+		width: 1454px;
+		height: 355px;
+		left: 384px;
+		top: 1081px;
+		overflow: visible;
+	}
+	#about {
+		position: absolute;
+		width: 1454px;
+		height: 355px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#social_icons_bl {
+		position: absolute;
+		width: 383.993px;
+		height: 72.955px;
+		left: 702.998px;
+		top: 260.73px;
+		overflow: visible;
+	}
+	#instagram_bm {
+		position: absolute;
+		width: 72.955px;
+		height: 72.955px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Ellipse_1_bn {
+		position: absolute;
+		overflow: visible;
+		width: 72.955px;
+		height: 72.955px;
+		left: 0px;
+		top: 0px;
+	}
+	.Icon_metro_instagram_bo {
+		overflow: visible;
+		position: absolute;
+		width: 29.085px;
+		height: 29.08px;
+		left: 21.699px;
+		top: 21.937px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#email_bp {
+		position: absolute;
+		width: 72.955px;
+		height: 72.955px;
+		left: 103.679px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Ellipse_2_bq {
+		position: absolute;
+		overflow: visible;
+		width: 72.955px;
+		height: 72.955px;
+		left: 0px;
+		top: 0px;
+	}
+	.Icon_material_email_br {
+		overflow: visible;
+		position: absolute;
+		width: 29.085px;
+		height: 29.085px;
+		left: 21.887px;
+		top: 21.887px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#linkedin_bs {
+		position: absolute;
+		width: 72.955px;
+		height: 72.955px;
+		left: 207.359px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Ellipse_3_bt {
+		position: absolute;
+		overflow: visible;
+		width: 72.955px;
+		height: 72.955px;
+		left: 0px;
+		top: 0px;
+	}
+	.Icon_simple_linkedin_bu {
+		overflow: visible;
+		position: absolute;
+		width: 29.082px;
+		height: 29.082px;
+		left: 21.539px;
+		top: 21.937px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#github_bv {
+		position: absolute;
+		width: 72.955px;
+		height: 72.955px;
+		left: 311.038px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Ellipse_4_bw {
+		position: absolute;
+		overflow: visible;
+		width: 72.955px;
+		height: 72.955px;
+		left: 0px;
+		top: 0px;
+	}
+	.Icon_awesome_github_square_bx {
+		overflow: visible;
+		position: absolute;
+		width: 29.082px;
+		height: 29.082px;
+		left: 21.253px;
+		top: 22.071px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#about_message {
+		position: absolute;
+		left: 0px;
+		top: 99px;
+		overflow: visible;
+		width: 1116px;
+		height: 143px;
+		line-height: 35px;
+		margin-top: -5px;
+		text-align: right;
+		font-family: American Typewriter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.05px;
+	}
+	#about_greeting {
+		position: absolute;
+		left: 826px;
+		top: 59px;
+		overflow: visible;
+		width: 290px;
+		white-space: nowrap;
+		line-height: 150px;
+		margin-top: -57.5px;
+		text-align: right;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 1px;
+	}
+	#quiyet_brul_avatar {
+		position: absolute;
+		width: 325px;
+		height: 355px;
+		left: 1129px;
+		top: 0px;
+		overflow: visible;
+	}
+	#quiyet_brul_avatar_b {
+		position: absolute;
+		width: 325px;
+		height: 353px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#menu {
+		position: absolute;
+		width: 845px;
+		height: 50px;
+		left: 859.5px;
+		top: 85px;
+		overflow: visible;
+	}
+	.landing_line {
+		overflow: visible;
+		position: absolute;
+		width: 850.003px;
+		height: 5.503px;
+		left: 0px;
+		top: 49.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#projects_b {
+		position: absolute;
+		width: 124px;
+		height: 35px;
+		left: 671.5px;
+		top: 0px;
+		overflow: visible;
+	}
+	#projects_ca {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 125px;
+		white-space: nowrap;
+		line-height: 150px;
+		margin-top: -60px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 30px;
+		color: rgba(150,150,150,1);
+		letter-spacing: 1px;
+	}
+	#about_b {
+		position: absolute;
+		width: 86px;
+		height: 35px;
+		left: 515.5px;
+		top: 0px;
+		overflow: visible;
+	}
+	#about_ca {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		line-height: 150px;
+		margin-top: -60px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 30px;
+		color: rgba(150,150,150,1);
+		letter-spacing: 1px;
+	}
+	#heading {
+		position: absolute;
+		width: 1210px;
+		height: 419px;
+		left: 190px;
+		top: 276px;
+		overflow: visible;
+	}
+	.heading_container_dark {
+		filter: drop-shadow(10px 10px 25px rgba(17, 25, 87, 0.451));
+		position: absolute;
+		overflow: visible;
+		width: 1285px;
+		height: 494px;
+		left: 0px;
+		top: 0px;
+	}
+	.heading_container_light {
+		filter: drop-shadow(-10px -10px 25px rgba(244, 208, 208, 0.502));
+		position: absolute;
+		overflow: visible;
+		width: 1285px;
+		height: 494px;
+		left: 0px;
+		top: 0px;
+	}
+	#heading_title {
+		filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		left: 86px;
+		top: 77px;
+		overflow: visible;
+		width: 1039px;
+		white-space: nowrap;
+		line-height: 150px;
+		margin-top: -25px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 100px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 1px;
+	}
+	#click_me_scroll {
+		position: absolute;
+		width: 97px;
+		height: 57.689px;
+		left: 912px;
+		top: 922px;
+		overflow: visible;
+	}
+	.Icon_ionic_ios_arrow_down {
+		overflow: visible;
+		position: absolute;
+		width: 49.624px;
+		height: 28.273px;
+		left: 23px;
+		top: 29.415px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#click_me {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 98px;
+		white-space: nowrap;
+		line-height: 40px;
+		margin-top: -10px;
+		text-align: right;
+		font-family: PT Mono;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,0,0,1);
+		letter-spacing: 0.05px;
+	}
+}

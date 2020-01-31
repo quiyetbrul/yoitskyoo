@@ -1,909 +1,861 @@
-.mediaViewInfo {
-	--web-view-name: quiyet-brul-portfolio;
-	--web-view-id: quiyet_brul_portfolio;
-	--web-scale-to-fit: true;
-	--web-scale-to-fit-type: width;
-	--web-enable-scale-up: true;
-	--web-scale-on-resize: true;
-	--web-scale-on-double-click: true;
-	--web-actual-size-on-double-click: true;
-	--web-center-horizontally: true;
-	--web-center-vertically: true;
-	--web-navigate-on-keypress: true;
-	--web-refresh-for-changes: true;
-	--web-application: true;
-	--web-enable-deep-linking: true;
-}
 :root {
-	--web-view-ids: quiyet_brul_portfolio;
-}
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	border: none;
+  --web-view-ids: quiyet_brul_portfolio;
+  --web-view-name: quiyet-brul-portfolio;
+  --web-view-id: quiyet_brul_portfolio;
+  --web-scale-to-fit: true;
+  --web-scale-to-fit-type: width;
+  --web-enable-scale-up: true;
+  --web-scale-on-resize: true;
+  --web-show-scale-controls: false;
+  --web-scale-on-double-click: true;
+  --web-center-horizontally: true;
+  --web-center-vertically: true;
+  --web-actual-size-on-double-click: true;
+  --web-navigate-on-keypress: true;
+  --web-refresh-for-changes: true;
+  --web-add-image-compare: false;
+  --web-show-by-media-query: false;
+  --web-application: true;
+  --web-show-navigation-controls: false;
+  --web-enable-deep-linking: true;
+  --web-is-overlay: false;
 }
 #quiyet_brul_portfolio {
-	position: absolute;
-	transform: translateX(-50%) translateY(-50%);
-	left: 50%;
-	top: 50%;
-	width: 1920px;
-	height: 4652px;
-	background-color: rgba(255,255,255,1);
-	overflow: hidden;
-	--web-view-name: quiyet-brul-portfolio;
-	--web-view-id: quiyet_brul_portfolio;
-	--web-scale-to-fit: true;
-	--web-scale-to-fit-type: width;
-	--web-enable-scale-up: true;
-	--web-scale-on-resize: true;
-	--web-scale-on-double-click: true;
-	--web-actual-size-on-double-click: true;
-	--web-center-horizontally: true;
-	--web-center-vertically: true;
-	--web-navigate-on-keypress: true;
-	--web-refresh-for-changes: true;
-	--web-application: true;
-	--web-enable-deep-linking: true;
-}
-.contact_line {
-	overflow: visible;
-	position: absolute;
-	width: 5.908px;
-	height: 280.641px;
-	left: 959.608px;
-	top: 3613.086px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#contact {
-	position: absolute;
-	width: 1130.807px;
-	height: 548.258px;
-	left: 394.596px;
-	top: 3924.742px;
-	overflow: visible;
-}
-.contact_form_container {
-	filter: drop-shadow(10px 10px 20px rgba(19, 19, 47, 0.2));
-	position: absolute;
-	overflow: visible;
-	width: 1190.807px;
-	height: 554.34px;
-	left: 0px;
-	top: 0px;
-}
-#social_icons {
-	position: absolute;
-	width: 383.993px;
-	height: 72.955px;
-	left: 112.401px;
-	top: 407.927px;
-	overflow: visible;
-}
-#instagram {
-	position: absolute;
-	width: 72.955px;
-	height: 72.955px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-.Ellipse_1 {
-	position: absolute;
-	overflow: visible;
-	width: 72.955px;
-	height: 72.955px;
-	left: 0px;
-	top: 0px;
-}
-.Icon_metro_instagram {
-	overflow: visible;
-	position: absolute;
-	width: 29.085px;
-	height: 29.08px;
-	left: 21.699px;
-	top: 21.937px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#email {
-	position: absolute;
-	width: 72.955px;
-	height: 72.955px;
-	left: 103.679px;
-	top: 0px;
-	overflow: visible;
-}
-.Ellipse_2 {
-	position: absolute;
-	overflow: visible;
-	width: 72.955px;
-	height: 72.955px;
-	left: 0px;
-	top: 0px;
-}
-.Icon_material_email {
-	overflow: visible;
-	position: absolute;
-	width: 29.085px;
-	height: 29.085px;
-	left: 21.887px;
-	top: 21.886px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#linkedin {
-	position: absolute;
-	width: 72.955px;
-	height: 72.955px;
-	left: 207.359px;
-	top: 0px;
-	overflow: visible;
-}
-.Ellipse_3 {
-	position: absolute;
-	overflow: visible;
-	width: 72.955px;
-	height: 72.955px;
-	left: 0px;
-	top: 0px;
-}
-.Icon_simple_linkedin {
-	overflow: visible;
-	position: absolute;
-	width: 29.082px;
-	height: 29.082px;
-	left: 21.539px;
-	top: 21.937px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#github {
-	position: absolute;
-	width: 72.955px;
-	height: 72.955px;
-	left: 311.038px;
-	top: 0px;
-	overflow: visible;
-}
-.Ellipse_4 {
-	position: absolute;
-	overflow: visible;
-	width: 72.955px;
-	height: 72.955px;
-	left: 0px;
-	top: 0px;
-}
-.Icon_awesome_github_square {
-	overflow: visible;
-	position: absolute;
-	width: 29.082px;
-	height: 29.082px;
-	left: 21.253px;
-	top: 22.071px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#input_form {
-	position: absolute;
-	width: 990.149px;
-	height: 333.163px;
-	left: 86.065px;
-	top: 78.825px;
-	overflow: visible;
-}
-#message_input {
-	position: absolute;
-	width: 477.857px;
-	height: 333.163px;
-	left: 512.292px;
-	top: 0px;
-	overflow: visible;
-}
-#Mask_Group_1 {
-	position: absolute;
-	width: 476.641px;
-	height: 331.947px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#email_input {
-	position: absolute;
-	width: 437.732px;
-	height: 60.796px;
-	left: 0px;
-	top: 224.085px;
-	overflow: visible;
-}
-#Mask_Group_1_ {
-	position: absolute;
-	width: 437.732px;
-	height: 60.796px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#phone_input {
-	position: absolute;
-	width: 437.732px;
-	height: 60.796px;
-	left: 0px;
-	top: 111.833px;
-	overflow: visible;
-}
-#Mask_Group_1_be {
-	position: absolute;
-	width: 437.732px;
-	height: 60.796px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#name_input {
-	position: absolute;
-	width: 437.732px;
-	height: 60.796px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#Mask_Group_1_bm {
-	position: absolute;
-	width: 437.732px;
-	height: 60.796px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-#send_button {
-	position: absolute;
-	width: 126px;
-	height: 126px;
-	left: 913.404px;
-	top: 422.258px;
-	overflow: visible;
-}
-.send_button_ellipse {
-	filter: drop-shadow(10px 10px 20px rgba(19, 19, 47, 0.2));
-	position: absolute;
-	overflow: visible;
-	width: 186px;
-	height: 186px;
-	left: 0px;
-	top: 0px;
-}
-.send_icon {
-	overflow: visible;
-	position: absolute;
-	width: 63.588px;
-	height: 63.284px;
-	left: 27.488px;
-	top: 35.534px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#email_bw {
-	position: absolute;
-	left: 111.404px;
-	top: 263.258px;
-	overflow: visible;
-	width: 71px;
-	white-space: nowrap;
-	line-height: 60px;
-	margin-top: -15px;
-	text-align: left;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 30px;
-	color: rgba(90,90,90,1);
-	letter-spacing: 0.2px;
-}
-#phone {
-	position: absolute;
-	left: 111.404px;
-	top: 152.258px;
-	overflow: visible;
-	width: 85px;
-	white-space: nowrap;
-	line-height: 60px;
-	margin-top: -15px;
-	text-align: left;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 30px;
-	color: rgba(90,90,90,1);
-	letter-spacing: 0.2px;
-}
-#name {
-	position: absolute;
-	left: 111.404px;
-	top: 40.258px;
-	overflow: visible;
-	width: 75px;
-	white-space: nowrap;
-	line-height: 60px;
-	margin-top: -15px;
-	text-align: left;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 30px;
-	color: rgba(90,90,90,1);
-	letter-spacing: 0.2px;
-}
-#message {
-	position: absolute;
-	left: 628.404px;
-	top: 40.258px;
-	overflow: visible;
-	width: 122px;
-	white-space: nowrap;
-	line-height: 60px;
-	margin-top: -15px;
-	text-align: left;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 30px;
-	color: rgba(90,90,90,1);
-	letter-spacing: 0.2px;
-}
-#work {
-	position: absolute;
-	width: 1328px;
-	height: 739.666px;
-	left: 296px;
-	top: 3058px;
-	overflow: visible;
-}
-#project_two {
-	position: absolute;
-	width: 655px;
-	height: 629px;
-	left: 673px;
-	top: 80px;
-	overflow: visible;
-}
-#SHPE_OC_is_a_non_profit_organi {
-	position: absolute;
-	left: 10px;
-	top: 475px;
-	overflow: hidden;
-	width: 646px;
-	height: 154px;
-	text-align: left;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 25px;
-	color: rgba(0,0,0,1);
-	letter-spacing: 0.3px;
-}
-.project_two_container {
-	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.161));
-	position: absolute;
-	overflow: visible;
-	width: 685px;
-	height: 470px;
-	left: 0px;
-	top: 0px;
-}
-#shpeoc_icon {
-	position: absolute;
-	width: 307px;
-	height: 293px;
-	left: 174px;
-	top: 74px;
-	overflow: visible;
-}
-#project_one {
-	position: absolute;
-	width: 655px;
-	height: 629px;
-	left: 0px;
-	top: 80px;
-	overflow: visible;
-}
-#K_Bro_is_an_emotional_resilien {
-	position: absolute;
-	left: 0px;
-	top: 475px;
-	overflow: visible;
-	width: 646px;
-	height: 154px;
-	text-align: left;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 25px;
-	color: rgba(0,0,0,1);
-	letter-spacing: 0.3px;
-}
-.project_one_container {
-	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.161));
-	position: absolute;
-	overflow: visible;
-	width: 685px;
-	height: 470px;
-	left: 0px;
-	top: 0px;
-}
-#kbro_icon {
-	position: absolute;
-	width: 300px;
-	height: 289px;
-	left: 178px;
-	top: 75px;
-	overflow: visible;
-}
-#WORK_b {
-	position: absolute;
-	left: 577px;
-	top: 0px;
-	overflow: visible;
-	width: 165px;
-	white-space: nowrap;
-	text-align: center;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 50px;
-	color: rgba(0,0,0,1);
-	letter-spacing: 1px;
-}
-.work_line {
-	overflow: visible;
-	position: absolute;
-	width: 696.378px;
-	height: 5px;
-	left: 318.76px;
-	top: 739.666px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#skills {
-	position: absolute;
-	width: 2475.096px;
-	height: 1239.712px;
-	left: -345.759px;
-	top: 1492.355px;
-	overflow: visible;
-}
-.skills_container {
-	width: 2394px;
-	height: 1035px;
-	position: absolute;
-	overflow: visible;
-	transform: translate(0px, 0px) matrix(1,0,0,1,40.5481,102.3562) rotate(-5deg);
-	transform-origin: center;
-}
-#texts {
-	position: absolute;
-	width: 1088.5px;
-	height: 798.069px;
-	left: 763.259px;
-	top: 247.645px;
-	overflow: visible;
-}
-#language {
-	position: absolute;
-	width: 794px;
-	height: 166px;
-	left: 159.5px;
-	top: 84px;
-	overflow: visible;
-}
-#Language_cf {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-	width: 201px;
-	white-space: nowrap;
-	line-height: 50px;
-	margin-top: -5px;
-	text-align: center;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 40px;
-	color: rgba(0,0,0,1);
-	letter-spacing: 1px;
-}
-#C_C____C___Java__Visual_Basic_ {
-	position: absolute;
-	left: 52px;
-	top: 68px;
-	overflow: visible;
-	width: 743px;
-	white-space: nowrap;
-	line-height: 50px;
-	margin-top: -5px;
-	text-align: left;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 40px;
-	color: rgba(0,0,0,1);
-	letter-spacing: 1px;
-}
-#database {
-	position: absolute;
-	width: 929px;
-	height: 183px;
-	left: 159.5px;
-	top: 275px;
-	overflow: visible;
-}
-#Database_ci {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-	width: 193px;
-	white-space: nowrap;
-	line-height: 50px;
-	margin-top: -5px;
-	text-align: center;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 40px;
-	color: rgba(0,0,0,1);
-	letter-spacing: 1px;
-}
-#SQL__MySQL__AWS__MongoDB__Apac {
-	position: absolute;
-	left: 53px;
-	top: 68px;
-	overflow: visible;
-	width: 877px;
-	height: 115px;
-	line-height: 50px;
-	margin-top: -5px;
-	text-align: left;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 40px;
-	color: rgba(0,0,0,1);
-	letter-spacing: 1px;
-}
-#tools {
-	position: absolute;
-	width: 866px;
-	height: 315px;
-	left: 159.5px;
-	top: 483px;
-	overflow: visible;
-}
-#Tools_cl {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-	width: 106px;
-	white-space: nowrap;
-	line-height: 50px;
-	margin-top: -5px;
-	text-align: center;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 40px;
-	color: rgba(0,0,0,1);
-	letter-spacing: 1px;
-}
-#Visual_Studio__Xcode__NetBeans {
-	position: absolute;
-	left: 53px;
-	top: 59px;
-	overflow: visible;
-	width: 814px;
-	height: 256px;
-	line-height: 50px;
-	margin-top: -5px;
-	text-align: left;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 40px;
-	color: rgba(0,0,0,1);
-	letter-spacing: 1px;
-}
-#SKILLS_cn {
-	position: absolute;
-	left: 49.5px;
-	top: 0px;
-	overflow: visible;
-	width: 186px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 50px;
-	color: rgba(0,0,0,1);
-	letter-spacing: 1px;
-}
-.skills_line {
-	overflow: visible;
-	position: absolute;
-	width: 5px;
-	height: 793px;
-	left: 0px;
-	top: 10.069px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#homepage {
-	position: absolute;
-	width: 1375px;
-	height: 799.624px;
-	left: 300px;
-	top: 359px;
-	overflow: visible;
-}
-#about {
-	position: absolute;
-	width: 1188px;
-	height: 387.624px;
-	left: 187px;
-	top: 412px;
-	overflow: visible;
-}
-#social_icons_cr {
-	position: absolute;
-	width: 383.993px;
-	height: 72.955px;
-	left: 728.998px;
-	top: 314.668px;
-	overflow: visible;
-}
-#instagram_cs {
-	position: absolute;
-	width: 72.955px;
-	height: 72.955px;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-}
-.Ellipse_1_ct {
-	position: absolute;
-	overflow: visible;
-	width: 72.955px;
-	height: 72.955px;
-	left: 0px;
-	top: 0px;
-}
-.Icon_metro_instagram_cu {
-	overflow: visible;
-	position: absolute;
-	width: 29.085px;
-	height: 29.08px;
-	left: 21.699px;
-	top: 21.937px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#email_cv {
-	position: absolute;
-	width: 72.955px;
-	height: 72.955px;
-	left: 103.679px;
-	top: 0px;
-	overflow: visible;
-}
-.Ellipse_2_cw {
-	position: absolute;
-	overflow: visible;
-	width: 72.955px;
-	height: 72.955px;
-	left: 0px;
-	top: 0px;
-}
-.Icon_material_email_cx {
-	overflow: visible;
-	position: absolute;
-	width: 29.085px;
-	height: 29.085px;
-	left: 21.887px;
-	top: 21.887px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#linkedin_cy {
-	position: absolute;
-	width: 72.955px;
-	height: 72.955px;
-	left: 207.359px;
-	top: 0px;
-	overflow: visible;
-}
-.Ellipse_3_cz {
-	position: absolute;
-	overflow: visible;
-	width: 72.955px;
-	height: 72.955px;
-	left: 0px;
-	top: 0px;
-}
-.Icon_simple_linkedin_c {
-	overflow: visible;
-	position: absolute;
-	width: 29.082px;
-	height: 29.082px;
-	left: 21.539px;
-	top: 21.937px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#github_c {
-	position: absolute;
-	width: 72.955px;
-	height: 72.955px;
-	left: 311.038px;
-	top: 0px;
-	overflow: visible;
-}
-.Ellipse_4_c {
-	position: absolute;
-	overflow: visible;
-	width: 72.955px;
-	height: 72.955px;
-	left: 0px;
-	top: 0px;
-}
-.Icon_awesome_github_square_c {
-	overflow: visible;
-	position: absolute;
-	width: 29.082px;
-	height: 29.082px;
-	left: 21.253px;
-	top: 22.071px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#about_message {
-	position: absolute;
-	left: 0px;
-	top: 93px;
-	overflow: hidden;
-	width: 904px;
-	height: 200px;
-	line-height: 40px;
-	margin-top: -7.5px;
-	text-align: right;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 25px;
-	color: rgba(0,0,0,1);
-	letter-spacing: 0.05px;
-}
-#about_greeting {
-	position: absolute;
-	left: 625px;
-	top: 36px;
-	overflow: visible;
-	width: 279px;
-	white-space: nowrap;
-	line-height: 150px;
-	margin-top: -57.5px;
-	text-align: right;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 35px;
-	color: rgba(0,0,0,1);
-	letter-spacing: 1px;
-}
-#quiyet_brul_avatar {
-	position: absolute;
-	width: 281px;
-	height: 305px;
-	left: 907px;
-	top: 0px;
-	overflow: visible;
-}
-#SOFTWARE_____WEB__D_E_V_E_L_O_ {
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	overflow: visible;
-	width: 1064px;
-	white-space: nowrap;
-	line-height: 150px;
-	margin-top: -25px;
-	text-align: left;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 100px;
-	color: rgba(0,0,0,1);
-	letter-spacing: 1px;
-}
-#menu {
-	position: absolute;
-	width: 845px;
-	height: 55px;
-	left: 830.5px;
-	top: 80px;
-	overflow: visible;
-}
-.landing_line {
-	overflow: visible;
-	position: absolute;
-	width: 850.003px;
-	height: 5.503px;
-	left: 0px;
-	top: 54.5px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#contact_da {
-	position: absolute;
-	left: 537.5px;
-	top: 0px;
-	overflow: visible;
-	width: 116px;
-	white-space: nowrap;
-	line-height: 150px;
-	margin-top: -60px;
-	text-align: left;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 30px;
-	color: rgba(150,150,150,1);
-	letter-spacing: 1px;
-}
-#work_db {
-	position: absolute;
-	left: 414.5px;
-	top: 0px;
-	overflow: visible;
-	width: 74px;
-	white-space: nowrap;
-	line-height: 150px;
-	margin-top: -60px;
-	text-align: left;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 30px;
-	color: rgba(150,150,150,1);
-	letter-spacing: 1px;
-}
-#skills_dc {
-	position: absolute;
-	left: 288.5px;
-	top: 0px;
-	overflow: visible;
-	width: 77px;
-	white-space: nowrap;
-	line-height: 150px;
-	margin-top: -60px;
-	text-align: left;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 30px;
-	color: rgba(150,150,150,1);
-	letter-spacing: 1px;
-}
-#resume {
-	position: absolute;
-	left: 702.5px;
-	top: 0px;
-	overflow: visible;
-	width: 112px;
-	white-space: nowrap;
-	line-height: 150px;
-	margin-top: -60px;
-	text-align: left;
-	font-family: Helvetica Neue;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 30px;
-	color: rgba(150,150,150,1);
-	letter-spacing: 1px;
-}
-
-a {
-	color: rgba(150,150,150,1);
-	text-decoration: none;
-	background-color: transparent;
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+@media (min-width: 0px) {
+  .mediaViewInfo {
+    --web-view-name: quiyet-brul-portfolio;
+    --web-view-id: quiyet_brul_portfolio;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-enable-scale-up: true;
+    --web-scale-on-resize: true;
+    --web-scale-on-double-click: true;
+    --web-actual-size-on-double-click: true;
+    --web-center-horizontally: true;
+    --web-center-vertically: true;
+    --web-navigate-on-keypress: true;
+    --web-refresh-for-changes: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
   }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+  }
+  #quiyet_brul_portfolio {
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 50%;
+    display: block;
+    width: 1920px;
+    height: 3278px;
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    --web-view-name: quiyet-brul-portfolio;
+    --web-view-id: quiyet_brul_portfolio;
+    --web-scale-to-fit: true;
+    --web-scale-to-fit-type: width;
+    --web-enable-scale-up: true;
+    --web-scale-on-resize: true;
+    --web-scale-on-double-click: true;
+    --web-actual-size-on-double-click: true;
+    --web-center-horizontally: true;
+    --web-center-vertically: true;
+    --web-navigate-on-keypress: true;
+    --web-refresh-for-changes: true;
+    --web-application: true;
+    --web-enable-deep-linking: true;
+  }
+  #projects {
+    position: absolute;
+    width: 1328px;
+    height: 880.623px;
+    left: 296px;
+    top: 2291px;
+    overflow: visible;
+    transition: transform 0.2s;
+  }
+  #social_icons {
+    position: absolute;
+    width: 383.993px;
+    height: 72.955px;
+    left: 471.998px;
+    top: 807.668px;
+    overflow: visible;
+  }
+  #instagram {
+    position: absolute;
+    width: 72.955px;
+    height: 72.955px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+  .Ellipse_1 {
+    position: absolute;
+    overflow: visible;
+    width: 72.955px;
+    height: 72.955px;
+    left: 0px;
+    top: 0px;
+  }
+  .Icon_metro_instagram {
+    overflow: visible;
+    position: absolute;
+    width: 29.085px;
+    height: 29.08px;
+    left: 21.699px;
+    top: 21.937px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  #email {
+    position: absolute;
+    width: 72.955px;
+    height: 72.955px;
+    left: 103.679px;
+    top: 0px;
+    overflow: visible;
+  }
+  .Ellipse_2 {
+    position: absolute;
+    overflow: visible;
+    width: 72.955px;
+    height: 72.955px;
+    left: 0px;
+    top: 0px;
+  }
+  .Icon_material_email {
+    overflow: visible;
+    position: absolute;
+    width: 29.085px;
+    height: 29.085px;
+    left: 21.887px;
+    top: 21.887px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  #linkedin {
+    position: absolute;
+    width: 72.955px;
+    height: 72.955px;
+    left: 207.359px;
+    top: 0px;
+    overflow: visible;
+  }
+  .Ellipse_3 {
+    position: absolute;
+    overflow: visible;
+    width: 72.955px;
+    height: 72.955px;
+    left: 0px;
+    top: 0px;
+  }
+  .Icon_simple_linkedin {
+    overflow: visible;
+    position: absolute;
+    width: 29.082px;
+    height: 29.082px;
+    left: 21.539px;
+    top: 21.937px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  #github {
+    position: absolute;
+    width: 72.955px;
+    height: 72.955px;
+    left: 311.038px;
+    top: 0px;
+    overflow: visible;
+  }
+  .Ellipse_4 {
+    position: absolute;
+    overflow: visible;
+    width: 72.955px;
+    height: 72.955px;
+    left: 0px;
+    top: 0px;
+  }
+  .Icon_awesome_github_square {
+    overflow: visible;
+    position: absolute;
+    width: 29.082px;
+    height: 29.082px;
+    left: 21.253px;
+    top: 22.071px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  #project_two {
+    position: absolute;
+    width: 655px;
+    height: 629px;
+    left: 673px;
+    top: 91px;
+    overflow: visible;
+  }
+  #SHPE_OC_is_a_non_profit_organi {
+    position: absolute;
+    left: 10px;
+    top: 475px;
+    overflow: hidden;
+    width: 646px;
+    height: 154px;
+    text-align: center;
+    font-family: Geeza Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 0.3px;
+  }
+  .project_two_container {
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 685px;
+    height: 470px;
+    left: 0px;
+    top: 0px;
+  }
+  #shpeoc_icon {
+    position: absolute;
+    width: 307px;
+    height: 293px;
+    left: 174px;
+    top: 74px;
+    overflow: visible;
+  }
+  #project_one {
+    position: absolute;
+    width: 655px;
+    height: 629px;
+    left: 0px;
+    top: 91px;
+    overflow: visible;
+  }
+  #K_Bro_is_an_emotional_resilien {
+    position: absolute;
+    left: 0px;
+    top: 475px;
+    overflow: visible;
+    width: 646px;
+    height: 154px;
+    text-align: center;
+    font-family: Geeza Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 0.3px;
+  }
+  .project_one_container {
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 685px;
+    height: 470px;
+    left: 0px;
+    top: 0px;
+  }
+  #kbro_icon {
+    position: absolute;
+    width: 300px;
+    height: 289px;
+    left: 178px;
+    top: 75px;
+    overflow: visible;
+  }
+  #__PROJECTS {
+    position: absolute;
+    left: 171px;
+    top: 0px;
+    overflow: visible;
+    width: 676px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(150, 150, 150, 1);
+    letter-spacing: 1px;
+    transition: transform 0.2s;
+  }
+  .project_line {
+    overflow: visible;
+    position: absolute;
+    width: 696.378px;
+    height: 5px;
+    left: 318.76px;
+    top: 750.666px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  #skills {
+    position: absolute;
+    width: 2443.208px;
+    height: 1173.154px;
+    left: -336.471px;
+    top: 1081.146px;
+    overflow: visible;
+  }
+  .skills_container_contrast {
+    overflow: visible;
+    position: absolute;
+    width: 2154.4px;
+    height: 1173.154px;
+    left: 233.862px;
+    top: 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  .skills_container {
+    overflow: visible;
+    position: absolute;
+    width: 2396.359px;
+    height: 755.289px;
+    transform: translate(-7.288px, 221.183px)
+      matrix(1, 0, 0, 1, 30.7126, 101.5154) rotate(-4deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+  }
+  #skills_texts {
+    position: absolute;
+    width: 987.5px;
+    height: 638.5px;
+    left: 727.971px;
+    top: 397.854px;
+    overflow: visible;
+  }
+  #language {
+    position: absolute;
+    width: 558px;
+    height: 132px;
+    left: 115.5px;
+    top: 68px;
+    overflow: visible;
+  }
+  #Language_ {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 163px;
+    white-space: nowrap;
+    line-height: 50px;
+    margin-top: -10px;
+    text-align: center;
+    font-family: Geeza Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 1px;
+  }
+  #C_C____C___Java__Visual_Basic_ {
+    position: absolute;
+    left: 33px;
+    top: 35px;
+    overflow: visible;
+    width: 526px;
+    white-space: nowrap;
+    line-height: 50px;
+    margin-top: -10px;
+    text-align: left;
+    font-family: Sukhumvit Set;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 1px;
+  }
+  #database {
+    position: absolute;
+    width: 550px;
+    height: 173px;
+    left: 115.5px;
+    top: 211px;
+    overflow: visible;
+  }
+  #Database_bc {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 157px;
+    white-space: nowrap;
+    line-height: 50px;
+    margin-top: -10px;
+    text-align: center;
+    font-family: Geeza Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 1px;
+  }
+  #SQL__MySQL__AWS__MongoDB__Apac {
+    position: absolute;
+    left: 35px;
+    top: 58px;
+    overflow: visible;
+    width: 516px;
+    height: 115px;
+    line-height: 50px;
+    margin-top: -10px;
+    text-align: left;
+    font-family: Sukhumvit Set;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 1px;
+  }
+  #tools {
+    position: absolute;
+    width: 872px;
+    height: 246px;
+    left: 115.5px;
+    top: 384px;
+    overflow: visible;
+  }
+  #Tools_bf {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 93px;
+    white-space: nowrap;
+    line-height: 50px;
+    margin-top: -10px;
+    text-align: center;
+    font-family: Geeza Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 1px;
+  }
+  #Visual_Studio__Xcode__NetBeans {
+    position: absolute;
+    left: 46px;
+    top: 49px;
+    overflow: visible;
+    width: 827px;
+    height: 197px;
+    line-height: 50px;
+    margin-top: -10px;
+    text-align: left;
+    font-family: Sukhumvit Set;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 1px;
+  }
+  #__SKILLS {
+    position: absolute;
+    left: 49.5px;
+    top: 0px;
+    overflow: visible;
+    width: 229px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(150, 150, 150, 1);
+    letter-spacing: 1px;
+  }
+  .skills_line {
+    overflow: visible;
+    position: absolute;
+    width: 5px;
+    height: 632.457px;
+    left: 0px;
+    top: 11.043px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  #homepage {
+    position: absolute;
+    width: 1454px;
+    height: 355px;
+    left: 384px;
+    top: 1081px;
+    overflow: visible;
+  }
+  #about {
+    position: absolute;
+    width: 1454px;
+    height: 355px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    transition: transform 0.2s;
+  }
+  #social_icons_bl {
+    position: absolute;
+    width: 383.993px;
+    height: 72.955px;
+    left: 702.998px;
+    top: 260.73px;
+    overflow: visible;
+  }
+  #instagram_bm {
+    position: absolute;
+    width: 72.955px;
+    height: 72.955px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+  .Ellipse_1_bn {
+    position: absolute;
+    overflow: visible;
+    width: 72.955px;
+    height: 72.955px;
+    left: 0px;
+    top: 0px;
+  }
+  .Icon_metro_instagram_bo {
+    overflow: visible;
+    position: absolute;
+    width: 29.085px;
+    height: 29.08px;
+    left: 21.699px;
+    top: 21.937px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  #email_bp {
+    position: absolute;
+    width: 72.955px;
+    height: 72.955px;
+    left: 103.679px;
+    top: 0px;
+    overflow: visible;
+  }
+  .Ellipse_2_bq {
+    position: absolute;
+    overflow: visible;
+    width: 72.955px;
+    height: 72.955px;
+    left: 0px;
+    top: 0px;
+  }
+  .Icon_material_email_br {
+    overflow: visible;
+    position: absolute;
+    width: 29.085px;
+    height: 29.085px;
+    left: 21.887px;
+    top: 21.887px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  #linkedin_bs {
+    position: absolute;
+    width: 72.955px;
+    height: 72.955px;
+    left: 207.359px;
+    top: 0px;
+    overflow: visible;
+  }
+  .Ellipse_3_bt {
+    position: absolute;
+    overflow: visible;
+    width: 72.955px;
+    height: 72.955px;
+    left: 0px;
+    top: 0px;
+  }
+  .Icon_simple_linkedin_bu {
+    overflow: visible;
+    position: absolute;
+    width: 29.082px;
+    height: 29.082px;
+    left: 21.539px;
+    top: 21.937px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  #github_bv {
+    position: absolute;
+    width: 72.955px;
+    height: 72.955px;
+    left: 311.038px;
+    top: 0px;
+    overflow: visible;
+  }
+  .Ellipse_4_bw {
+    position: absolute;
+    overflow: visible;
+    width: 72.955px;
+    height: 72.955px;
+    left: 0px;
+    top: 0px;
+  }
+  .Icon_awesome_github_square_bx {
+    overflow: visible;
+    position: absolute;
+    width: 29.082px;
+    height: 29.082px;
+    left: 21.253px;
+    top: 22.071px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  #about_message {
+    position: absolute;
+    left: 0px;
+    top: 99px;
+    overflow: visible;
+    width: 1116px;
+    height: 143px;
+    line-height: 35px;
+    margin-top: -5px;
+    text-align: right;
+    font-family: American Typewriter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0.05px;
+  }
+  #about_greeting {
+    position: absolute;
+    left: 826px;
+    top: 59px;
+    overflow: visible;
+    width: 290px;
+    white-space: nowrap;
+    line-height: 150px;
+    margin-top: -57.5px;
+    text-align: right;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 1px;
+  }
+  #quiyet_brul_avatar {
+    position: absolute;
+    width: 325px;
+    height: 355px;
+    left: 1129px;
+    top: 0px;
+    overflow: visible;
+  }
+  #quiyet_brul_avatar_b {
+    position: absolute;
+    width: 325px;
+    height: 353px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+  #menu {
+    position: absolute;
+    width: 845px;
+    height: 50px;
+    left: 859.5px;
+    top: 85px;
+    overflow: visible;
+    transition: transform 0.2s;
+  }
+  .landing_line {
+    overflow: visible;
+    position: absolute;
+    width: 850.003px;
+    height: 5.503px;
+    left: 0px;
+    top: 49.5px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  #projects_b {
+    position: absolute;
+    width: 124px;
+    height: 35px;
+    left: 671.5px;
+    top: 0px;
+    overflow: visible;
+    transition: transform 0.2s;
+  }
+  #projects_ca {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 125px;
+    white-space: nowrap;
+    line-height: 150px;
+    margin-top: -60px;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(150, 150, 150, 1);
+    letter-spacing: 1px;
+    transition: transform 0.2s;
+  }
+  #about_b {
+    position: absolute;
+    width: 86px;
+    height: 35px;
+    left: 515.5px;
+    top: 0px;
+    overflow: visible;
+    transition: transform 0.2s;
+  }
+  #about_ca {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 87px;
+    white-space: nowrap;
+    line-height: 150px;
+    margin-top: -60px;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgba(150, 150, 150, 1);
+    letter-spacing: 1px;
+    transition: transform 0.2s;
+  }
+  #heading {
+    position: absolute;
+    width: 1210px;
+    height: 419px;
+    left: 190px;
+    top: 276px;
+    overflow: visible;
+  }
+  .heading_container_dark {
+    filter: drop-shadow(10px 10px 25px rgba(17, 25, 87, 0.451));
+    position: absolute;
+    overflow: visible;
+    width: 1285px;
+    height: 494px;
+    left: 0px;
+    top: 0px;
+  }
+  .heading_container_light {
+    filter: drop-shadow(-10px -10px 25px rgba(244, 208, 208, 0.502));
+    position: absolute;
+    overflow: visible;
+    width: 1285px;
+    height: 494px;
+    left: 0px;
+    top: 0px;
+  }
+  #heading_title {
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    left: 86px;
+    top: 77px;
+    overflow: visible;
+    width: 1039px;
+    white-space: nowrap;
+    line-height: 150px;
+    margin-top: -25px;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 1px;
+  }
+
+  .Icon_ionic_ios_arrow_down {
+    overflow: visible;
+    position: absolute;
+    width: 49.624px;
+    height: 28.273px;
+    left: 23px;
+    top: 29.415px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: transform 0.2s;
+  }
+
+  #click_me_scroll {
+    position: absolute;
+    width: 97px;
+    height: 57.689px;
+    left: 912px;
+    top: 986px;
+    overflow: visible;
+    animation-name: click_me;
+    animation-timing-function: linear;
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: transform 0.2s;
+  }
+
+  #click_me {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 98px;
+    white-space: nowrap;
+    line-height: 40px;
+    margin-top: -10px;
+    text-align: right;
+    font-family: PT Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 0.05px;
+    transition: transform 0.2s;
+  }
+
+  @keyframes click_me {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  a {
+    color: rgba(150, 150, 150, 1);
+    text-decoration: none;
+    background-color: transparent;
+    transition: transform 0.2s;
+  }
+
+  a:hover {
+    color: rgb(0, 0, 0);
+    transform: scale(1.5);
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  .about:hover {
+    color: rgb(0,0,0) !important;
+    transform: scale(1.5);
+    font-size: 35px !important;
+  }
+  .projects:hover{
+    color: rgb(0,0,0) !important;
+    transform: scale(1.5);
+    font-size: 35px !important;
+  }
+
+  #click_me_scroll:hover{
+    transform: scale(1.5);
+  }
+}

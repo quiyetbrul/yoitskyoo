@@ -23,6 +23,12 @@
 #quiyet_brul_portfolio {
   display: none;
 }
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}	
+
 @media (min-width: 0px) {
   .mediaViewInfo {
     --web-view-name: quiyet-brul-portfolio;
@@ -227,6 +233,10 @@
     top: 74px;
     overflow: visible;
   }
+  #shpeoc_icon:hover {
+    transform: scale(1.1);
+  }
+
   #project_one {
     position: absolute;
     width: 655px;
@@ -235,6 +245,7 @@
     top: 91px;
     overflow: visible;
   }
+  
   #K_Bro_is_an_emotional_resilien {
     position: absolute;
     left: 0px;
@@ -267,6 +278,9 @@
     top: 75px;
     overflow: visible;
   }
+  #kbro_icon:hover {
+    transform: scale(1.1);
+  }
   #__PROJECTS {
     position: absolute;
     left: 171px;
@@ -298,6 +312,7 @@
     left: -336.471px;
     top: 1081px;
     overflow: visible;
+    transform: transition 0.1s;
   }
   #skills {
     position: absolute;
@@ -501,6 +516,9 @@
     top: 0px;
     overflow: visible;
   }
+  #instagram_bl:hover{
+    transform: scale(1.1);
+  }
   .Ellipse_1_bm {
     position: absolute;
     overflow: visible;
@@ -525,6 +543,9 @@
     left: 103.679px;
     top: 0px;
     overflow: visible;
+  }
+  #email_bo:hover{
+    transform: scale(1.1);
   }
   .Ellipse_2_bp {
     position: absolute;
@@ -551,6 +572,9 @@
     top: 0px;
     overflow: visible;
   }
+  #linkedin_br:hover{
+    transform: scale(1.1);
+  }
   .Ellipse_3_bs {
     position: absolute;
     overflow: visible;
@@ -575,6 +599,9 @@
     left: 311.038px;
     top: 0px;
     overflow: visible;
+  }
+  #github_bu:hover{
+    transform: scale(1.1);
   }
   .Ellipse_4_bv {
     position: absolute;
@@ -635,6 +662,9 @@
     top: 0px;
     overflow: visible;
   }
+  #quiyet_brul_avatar:hover{
+      transform: scale(1.1);
+  }
   #quiyet_brul_avatar_b {
     position: absolute;
     width: 325px;
@@ -643,6 +673,9 @@
     top: 0px;
     overflow: visible;
   }
+  #quiyet_brul_avatar_b:hover{
+    transform: scale(1.1);
+}
   #homepage {
     position: absolute;
     width: 1428.5px;
@@ -665,6 +698,10 @@
     animation-iteration-count: infinite;
     transition: transform 0.1s;
   }
+  #click_me_button:hover {
+    transform: scale(1.5);
+  }
+  
   .scroll_container {
     position: absolute;
     overflow: visible;
@@ -672,6 +709,9 @@
     height: 160px;
     left: 0px;
     top: 0px;
+  }
+  .scroll_container{
+    transform: scale(1.1);
   }
   .Icon_ionic_ios_arrow_down {
     overflow: visible;
@@ -733,6 +773,7 @@
     left: 1099px;
     top: 0px;
     overflow: visible;
+    transition: transform 0.1s;
   }
   #projects_menu {
     position: absolute;
@@ -741,6 +782,7 @@
     left: 156px;
     top: 0px;
     overflow: visible;
+    transition: transform 0.1s;
   }
   #projects_menu_text {
     position: absolute;
@@ -758,6 +800,7 @@
     font-size: 30px;
     color: rgba(150, 150, 150, 1);
     letter-spacing: 1px;
+    transition: transform 0.1s;
   }
   #about_menu {
     position: absolute;
@@ -766,6 +809,7 @@
     left: 0px;
     top: 0px;
     overflow: visible;
+    transition: transform 0.1s;
   }
   #about_menu_text {
     position: absolute;
@@ -783,6 +827,7 @@
     font-size: 30px;
     color: rgba(150, 150, 150, 1);
     letter-spacing: 1px;
+    transition: transform 0.1s;
   }
 
   @keyframes click_me {
@@ -815,7 +860,6 @@
 
   a {
     color: rgba(150, 150, 150, 1);
-    text-decoration: none;
     background-color: transparent;
     transition: transform 0.2s;
   }
@@ -823,22 +867,33 @@
   a:hover {
     color: rgb(0, 0, 0);
     transform: scale(1.5);
-    text-decoration: none;
     background-color: transparent;
+    transition: transform 0.1s;
   }
 
-  .about:hover {
-    color: rgb(0, 0, 0) !important;
+  .about_menu:hover {
+    color: black !important;
     transform: scale(1.5);
-    font-size: 35px !important;
+    /* font-size: 35px !important; */
   }
-  .projects:hover {
-    color: rgb(0, 0, 0) !important;
+  .projects_menu:hover {
+    color: black !important;
     transform: scale(1.5);
-    font-size: 35px !important;
+    /* font-size: 35px !important; */
   }
 
-  #click_me_scroll:hover {
-    transform: scale(1.5);
+  #instagram:hover{
+    transform: scale(1.1);
   }
+  #linkedin:hover{
+    transform: scale(1.1);
+  }
+  #email:hover{
+    transform: scale(1.1);
+  }
+  #github:hover{
+    transform: scale(1.1);
+  }
+
+ 
 }

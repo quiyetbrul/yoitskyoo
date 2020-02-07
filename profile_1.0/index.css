@@ -3,7 +3,7 @@
   --web-view-name: quiyet-brul-portfolio;
   --web-view-id: quiyet_brul_portfolio;
   --web-scale-to-fit: true;
-  --web-scale-to-fit-type: width;
+  /* --web-scale-to-fit-type: width; */
   --web-enable-scale-up: true;
   --web-scale-on-resize: true;
   --web-show-scale-controls: false;
@@ -29,7 +29,12 @@ html {
   overflow-x: hidden;
 }	
 
-@media (min-width: 0px) {
+@viewport {
+  width: device-width ;
+  zoom: 1.0;
+}
+
+@media (min-width: 800px) {
   .mediaViewInfo {
     --web-view-name: quiyet-brul-portfolio;
     --web-view-id: quiyet_brul_portfolio;
@@ -897,3 +902,4 @@ html {
 
  
 }
+

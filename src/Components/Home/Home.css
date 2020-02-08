@@ -1,0 +1,68 @@
+/*--------------- hero section --------------- */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-weight: lighter;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 58px;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 20.5px;
+    letter-spacing: -0.2px;
+  }
+}
+
+
+/*--------------- typewriter effect --------------- */
+.line {
+    width: 25em;
+    top: 50%;
+    margin: auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+  }
+  
+  .anim-typewriter {
+    animation: typewriter 5s steps(40) 1s 1 normal both,
+      blinkTextCussor 500ms steps(40) infinite normal;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 17.5em;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    @keyframes typewriter {
+      from {
+        width: 0;
+      }
+      to {
+        width: 17.5em;
+      }
+    }
+  }
+  
+  @keyframes blinkTextCussor {
+    from {
+      border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }

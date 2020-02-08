@@ -1,0 +1,12 @@
+body{
+    color:white;
+    text-align: center;
+}
+
+.vertical {
+    margin-top: 40px;
+    border-left: 1px solid #fff;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+  }
